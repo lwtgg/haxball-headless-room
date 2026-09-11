@@ -1,4 +1,4 @@
-# Futsal 4v4 — Haxball headless room
+# Futsal 4v4 Haxball headless room
 
 A Node.js headless Haxball host running the **AF Official 4v4 by Vitão** map, with a
 retas-style queue, auto team filling, persistent stats and a command system.
