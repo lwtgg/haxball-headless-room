@@ -1,4 +1,4 @@
-# Futsal 4v4 — Haxball headless room
+# Futsal 4v4 Haxball headless room
 
 A Node.js headless game server that hosts and fully automates a live Haxball
 room: matchmaking, team building, moderation, player progression and recovery,
