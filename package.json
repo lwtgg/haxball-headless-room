@@ -1,0 +1,25 @@
+{
+  "name": "futsala-room",
+  "version": "0.20.0",
+  "description": "Haxball headless host - 4v4 futsal room",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "listcheck": "node --no-deprecation tools/listcheck.js",
+    "token": "node tools/settoken.js",
+    "test": "node test/smoke.js && node test/rotation.js && node test/afk.js && node test/chat.js && node test/goals.js",
+    "test:rotation": "node test/rotation.js",
+    "test:afk": "node test/afk.js",
+    "test:chat": "node test/chat.js",
+    "test:goals": "node test/goals.js"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "haxball.js": "^5.0.6",
+    "node-haxball": "^2.3.1"
+  }
+}
